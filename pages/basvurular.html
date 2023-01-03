@@ -1,0 +1,121 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Başvurular</title>
+    <link rel="icon" href="../img/formicon.png">
+    <script src="../script.js" type="text/javascript"></script>
+</head>
+<body id="basvurubody">
+
+    <div id="basvurulogo">
+        <img class="logo1"src="../img/logo1.png" alt="logo1" height="230" width="250">
+        <img id="logo2"src="../img/logo.png" alt="logo" height="250" width="1000">
+        <img class="logo1"src="../img/logo2.png" alt="logo2" height="230" width="250">
+    </div>
+
+    <ul id="menu">
+        <li class="menuici hoverb"><a href="../index.html"><img src="../img/homeicon.png" alt="homeicon" height="100%"width="90%"></a></li>
+        <li class="menuici hoverb" id="brans"><a href="#">Branşlar</a>
+            <ul id="ilkul">
+                <li class="branslar" id="silahlikutu"><a href="#">Silahlı Atıcılık</a>
+                    <ul>
+                        <li><a href="./Branslar/hedefatis.html">Hedefe atış</a></li>
+                        <li><a href="./Branslar/sahacekimi.html">Saha çekimi</a></li>
+                        <li><a href="./Branslar/seriates.html">Seri ateş</a></li>
+                        <li><a href="./Branslar/kilhedefi.html">Kil hedefi</a></li>
+                        <li><a href="./Branslar/calisanhedef.html">Çalışan hedef</a></li>
+                        <li><a href="./Branslar/pratikcekim.html">Pratik çekim</a></li>
+                        <li class="menuyan menuyan1"><a href="./Branslar/uzunmesafe.html">Uzun mesafe</a></li>
+                        <li class="menuyan"><a href="./Branslar/tezgah.html">Tezgah</a></li>
+                        <li class="menuyan"><a href="./Branslar/metaliksiluet.html">Metalik silüet</a></li>
+                        <li class="menuyan"><a href="./Branslar/batili.html">Batılı</a></li>
+                        <li class="menuyan"><a href="./Branslar/agizdanyukleme.html">Ağızdan yükleme</a></li>
+                        <li class="menuyan"><a href="./Branslar/paracekimi.html">Para çekimi</a></li>
+                        <li class="menuyan"><a href="./Branslar/pliking.html">Pliking</a></li>                        
+                    </ul>
+                </li>
+                <li class="branslar"><a href="./Branslar/atletikatis.html">Atletik Atış</a></li>
+                <li class="branslar" id="yayli"><a href="#">Yaylı Atıcılık</a>
+                    <ul>
+                        <li><a href="./Branslar/okculuk.html">Okçuluk</a></li>
+                        <li><a href="./Branslar/tataryayi.html">Tatar yayı</a></li>
+                    </ul>
+                </li>
+                <li class="branslar"><a href="./Branslar/dartatis.html">Dart Atış</a></li>
+                <li class="branslar" id="catismali"><a href="#">Çatışmalı</a>
+                    <ul>
+                        <li><a href="./Branslar/olimpiyatduellosu.html" style="font-size: 14px;">Olimpiyat düellosu</a></li>
+                        <li><a href="./Branslar/paintball.html">Paintball</a></li>
+                        <li><a href="./Branslar/airsoft.html">Airsoft</a></li>
+                        <li><a href="./Branslar/lazeretiketi.html">Lazer etiketi</a></li>
+                        <li><a href="./Branslar/okculuketiketi.html">Okçuluk etiketi</a></li>
+                        <li><a href="./Branslar/espor.html">eSpor</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="menuici hoverb" id="hakkinda"><a href="#">Hakkında</a>
+            <ul>
+                <li><a href="./Hakkinda/tarihce.html">Tarihçe</a></li>
+                <li><a href="./Hakkinda/federasyon.html">Federasyon</a></li>
+            </ul>
+        </li>
+        <li class="menuici hoverb"><a href="./basvurular.html">Başvurular</a></li>
+    </ul>
+    <h1 class="basvurularb">BAŞVURU FORMU</h1>
+    <center>
+    <form action="basvurular.html" method="post">
+        <table border="1" class="basvurutable">
+            <tr>
+                <th colspan="3">Genel Bilgiler</th>
+            </tr>
+            <tr>
+                <td>Adınız:<input type="text" name="name" placeholder="Ad" required></td>
+                <td>Soyadınız:<input type="text" name="surname" placeholder="Soyad" required></td>
+                <td class="basvuruleft">Doğum Tarihi<input type="date" name="date" min="1980-12-31" max="2005-12-31" required></td>
+            </tr>
+            <tr>
+                <td>Tel No:<input type="tel" name="phonenumber" placeholder="5xxxxxxxxx" minlength="10" maxlength="10" required></td>
+                <td>Mail Adresi:<input type="email" name="mail" placeholder="mail@mail.com" required></td>
+                <td class="basvuruleft">Adres:<textarea name="adres" cols="25" rows="1"></textarea></td>
+            </tr>
+            <tr>
+                <th colspan="3">Branşlar</th>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label><input type="radio" name="branslar" value="brans">Silahlı</label>
+                    <label><input type="radio" name="branslar" value="brans">Atletik</label>
+                    <label><input type="radio" name="branslar" value="brans">Yaylı</label>
+                    <label><input type="radio" name="branslar" value="brans">Dart</label>
+                    <label><input type="radio" name="branslar" value="brans">Çatışmalı</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">Gerekli Evraklar</th>
+            </tr>
+            <tr>
+                <td>Fotoğraf:<input type="file" value="photo"  accept=".png,.jpg"></td>
+                <td>Kimlik Fotokopisi:<input type="file" value="photo" accept=".pdf"></td>
+                <td>Sporcu Lisansı:<input type="file" value="photo" accept=".pdf"></td>
+
+            </tr>
+            <tr border="0">
+                <td colspan="3" id="basvurusubmit"><center><input type="submit" value="Başvuruyu Gönder" onclick="formalert()"></center></td>
+            </tr>
+        </table>
+    </form></center>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="basvurufooter">
+        <a href="https://instagram.com/tolga.karabulutx" target="_blank"><img src="../img/insta-logo.png" alt="instagramlogo" height="40px" width="40px"></a>
+        <a href="https://github.com/tolga-karabulut" target="_blank"><img src="../img/github-logo.png" alt="githublogo" height="40px" width="40px"></a>
+        <a href="mailto:tolgakarabulut43@hotmail.com"><img src="../img/mail-logo.png" alt="maillogo" height="40px" width="40px"></a>
+        <a href="https://twitter.com/tolgaa43" target="_blank"><img src="../img/twitter-logo.png" alt="twitterlogo" height="40px" width="40px"></a>
+        <a href="https://www.reddit.com/user/tolga-karabulut" target="_blank"><img src="../img/reddit-logo.png" alt="redditlogo" height="40px" width="40px"></a>
+        <a href="" onclick="discordalert()"><img src="../img/discord-logo.png" alt="discordlogo" height="40px" width="40px"></a>
+        <p>Copyright © 2023 All Rights Reserved by <a href="https://github.com/tolga-karabulut" target="_blank" style="color: red; font-weight: bold; text-decoration: none;">Tolga Karabulut</a</p>
+    </div>
+    </body>
+</html>
