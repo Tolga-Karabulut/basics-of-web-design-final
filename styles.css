@@ -1,0 +1,1819 @@
+/* DROPDOWN MENU*/
+ul#menu{
+    background: blue;
+    height: 50px;
+    list-style:none;
+    padding-left: 0px;
+    margin:18px -8px 0px -8px;
+    position: sticky;
+    top: 0px;
+}
+ul#menu li.menuici{
+  float: left;
+  text-align: center;
+  position: relative;
+}
+/*Dropdown yan*/
+li.menuyan{
+    margin-left: 55.4%;
+    padding-right: 100px;
+}
+li.menuyan.menuyan1{
+    margin-top: -384px;
+}
+/*Dropdown yan*/
+ul#menu ul{
+  position: absolute;
+  top: 30px;
+  left: -70px;
+  opacity: 0;
+  transition: 250ms all;
+  visibility: hidden;
+  padding:10px 90px 70px 70px;
+}
+ul#menu li.menuici a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 0px 15px;
+  border-right: 1px solid black;
+}
+ul#menu li.menuici ul#ilkul li.branslar{
+  background-color: purple;
+  list-style:none;
+  width: 130px;
+  height: auto;
+}
+ul#menu li.menuici ul#ilkul li.branslar a{
+  display: block;
+  padding: 7px 12px;
+  font-size: 15px;
+}
+ul#menu li.menuici#brans:hover ul#ilkul{
+  opacity: 1;
+  visibility: visible;
+  top: 40px;
+}
+ul#menu li.menuici#brans:hover{
+  background-color: black;
+}
+ul#menu li.menuici#brans ul#ilkul li.branslar:hover{
+  background-color: red;
+}
+ul#menu li.menuici#brans ul#ilkul li.branslar ul{
+  top: -10px;
+  left: 60px;
+}
+/*DROPDOWN SİLAHLI ATICILIK*/
+ul#menu li#brans ul#ilkul li#silahlikutu:hover ul{
+  opacity: 1;
+  visibility: visible;
+}
+ul#menu li#brans ul#ilkul li#silahlikutu ul li{
+  list-style-type: none;
+}
+ul#menu ul#ilkul li{
+  position: relative;
+}
+ul#menu li#brans ul#ilkul li#silahlikutu ul li a{
+  text-align: center;
+  background-color: orange;
+  width: 110px;
+  height: auto;
+  padding-left: 0px;
+}
+ul#menu li#brans ul#ilkul li#silahlikutu ul li:hover a{
+  background-color: grey;
+}
+/*DROPDOWN YAYLI*/
+ul#menu li.branslar#yayli:hover ul{
+  opacity: 1;
+  visibility: visible;
+}
+ul#menu li.branslar#yayli ul li{
+  list-style: none;
+}
+ul#menu li.branslar#yayli ul li a{
+  text-align: center;
+  background-color: orange;
+  width: 110px;
+  height: auto;
+  padding-left: 0px;
+}
+ul#menu li.branslar#yayli ul li:hover a{
+  background-color: grey;
+}
+/*DROPDOWN ÇATIŞMALI*/
+ul#menu li.branslar#catismali:hover ul{
+  opacity: 1;
+  visibility: visible;
+}
+ul#menu li.branslar#catismali ul li{
+  list-style: none;
+}
+ul#menu li.branslar#catismali ul li a{
+  text-align: center;
+  background-color: orange;
+  width: 110px;
+  height: auto;
+  padding-left: 0px;
+}
+ul#menu li.branslar#catismali ul li:hover a{
+  background-color: grey;
+}
+/*DROPDOWN Hakkinda*/
+ul#menu li.menuici#hakkinda:hover ul{
+  opacity: 1;
+  visibility: visible;
+  top: 40px;
+}
+ul#menu li.menuici#hakkinda ul li{
+  list-style: none;
+}
+ul#menu li.menuici#hakkinda ul li a{
+  text-align: center;
+  background-color: purple;
+  width: 110px;
+  height: auto;
+  padding-left: 0px;
+}
+ul#menu li.menuici#hakkinda ul{
+  position: absolute;
+  top: 30px;
+  left: -70px;
+  opacity: 0;
+  transition: 250ms all;
+  visibility: hidden;
+}
+ul#menu li.menuici#hakkinda ul li:hover a{
+  background-color: red;
+}
+/* ANA KUTU RENK*/
+ul#menu li.hoverb:hover>a{
+  background-color: black;
+}
+#brans{
+  width: 130px;
+}
+#hakkinda{
+  width: 125px;
+}
+
+/*ÜST LOGO*/
+div#indexf img#logo2{
+  width: 40%;
+  height: auto;
+}
+
+div#indexf img.logo1{
+  width: 25%;
+  height: auto;
+}
+div#indexf{
+  text-align: center;
+}
+body#indexbody{
+  background-color:gray;
+}
+div#indexf{
+  background-color: orange;
+  margin:-8px -8px -20px -8px;
+}
+
+
+/* DROPDOWN MENU*/
+
+#indexb{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.indexp{
+    font-size: 18px;
+    color: white;
+}
+#iyarisma{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.sol{
+    float: left;
+    clear: both;
+}
+.sag{
+    float: right;
+}
+div#indexulbox{
+    background-color: orange;
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.indexulhiza{
+    float: left;
+    margin-top: 0px;
+    margin-left: 6%;
+}
+.indexulhiza h2{
+    color: red;
+    text-decoration: underline;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/* PAGE HEDEFATİS*/
+div#hedeflogo img#logo2{
+    width: 40%;
+    height: auto;
+  }
+  
+div#hedeflogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#hedeflogo{
+    text-align: center;
+}
+div#hedeflogo{
+    background-color: rgb(167, 114, 16);
+    margin:-8px -8px -20px -8px;
+}
+body#hedefbody{
+    background-color: rgb(130, 130, 255);
+}
+h1.hedefb{
+    text-align: center;
+    margin-top: 50px;
+    float: inline-end;
+}
+p.hedefp{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.hiza{
+    margin-right: 22px;
+}
+ul.hedeful{
+    list-style-type: disc;
+    margin-left: 15px;
+}
+ul.hedeful li{
+    font-size: 20px;
+    color:white;
+    padding: 0px;
+    margin: 0px;
+}
+.hedefol{
+    color: red;
+    font-size: 20px;
+}
+/* PAGE HEDEFATİS*/
+
+/* PAGE SAHACEKİMİ*/
+div#sahalogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#sahalogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#sahalogo{
+    text-align: center;
+}
+div#sahalogo{
+    background-color: black;
+    margin:-8px -8px -20px -8px;
+}
+body#sahabody{
+    background-color: red;
+}
+h1.sahab{
+    text-align: center;
+    margin-top: 100px;
+    float: inline-end;
+}
+p.sahap{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+ul.sahaul{
+    list-style-type: disc;
+    margin-left: 15px;
+}
+ul.sahaul li{
+    font-size: 20px;
+    color:white;
+    padding: 0px;
+    margin: 0px;
+}
+.sahaol{
+    color: purple;
+    font-size: 20px;
+    margin-left: 290px;
+    list-style-position: outside;
+}
+.sahaol2{
+    color: purple;
+    font-size: 20px;
+}
+.sahaf{
+    margin-right: 20px;
+}
+hr#sahahr{
+    margin-top: 16px;
+    border: 1px solid black;
+}
+/* PAGE SAHACEKİMİ*/
+
+/* PAGE SERİATİS*/
+#seribody{
+    background-color: black;
+}
+.serib{
+    text-align: center;
+    color: red;
+    text-decoration:underline ;
+    margin-top: 50px;
+}
+.serif{
+    height: 40%;
+    width: auto;
+    margin: 0px 20px 0px -8px;
+    float: left;
+}
+.seriol{
+    color: blue;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.seriol2{
+    color: blue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.seriul{
+    color: yellow;
+    font-size: 18px;
+    margin-left: 15px;
+    list-style-type: disc;
+}
+.seriul2{
+    color: yellow;
+    font-size: 18px;
+    list-style-type: disc;
+    margin-left: 15px;
+}
+#serihr{
+    border: 0.5px solid white;
+    margin-left: -4%;
+    margin-right: -8px;
+    margin-top: 1.4%;
+   /* border: 0.55px solid white;
+    margin-top: 109px;
+    margin-bottom: -20px;
+    padding: 0px 0px 0px 0px;*/
+}
+.serif.duzenserif{
+    margin-top: -10px;
+}
+div#salogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#salogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#salogo{
+    text-align: center;
+}
+div#salogo{
+    background-color: rgb(0, 0, 0);
+    margin:-8px -8px -20px -8px;
+}
+div.serikonum{
+    margin-left: 18%;
+}
+div.serikonum ol li{
+    margin-left: 1%;
+}
+ol.seriol li{
+    margin-left: 18.5%;
+    margin-top: 50px;
+}
+/* PAGE SERİATİS*/
+
+/* PAGE KİL HEDEFİ*/
+div#killogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#killogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#killogo{
+    text-align: center;
+}
+div#killogo{
+    background-color: rgb(52, 6, 137);
+    margin:-8px -8px -20px -8px;
+}
+#kilbody{
+    background-color: orange;
+}
+ul.kilul.kilpunto li a#ka2{
+    display: block;
+    float: inline-end;
+    width: 155px;
+    text-align: left;
+    height: 0px;
+    line-height: 0px;
+    color: rgb(145, 52, 231);
+    text-decoration: underline;
+}
+.kilb{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.kilp{
+    text-align: center;
+    font-size: 18px;
+}
+.kilul{
+    list-style-type: disc;
+    margin-left: 10px;
+    font-size: 20px;
+}
+p#tp2{
+  
+    margin-top: -9px;
+    margin-left: 155px;
+}
+ul.kilul li a#ka{
+    display: block;
+    float: inline-end;
+    width: 30px;
+    height: 0px;
+    line-height: 0px;
+    color: rgb(145, 52, 231);
+    text-decoration: underline;
+}
+p#tp{
+    margin-top: -9px;
+    margin-left: 50px;
+}
+#tul{
+    list-style-type: disc;
+    margin-left: 10px;
+}
+ul#tul li a.kila{
+    display: block;
+    text-align: left;
+    width: 240px;
+    height: 0px;
+    margin-top: 10px;
+    line-height: 0px;
+    color: rgb(179, 39, 255);
+    text-decoration: underline;
+}
+.kilaltcizgi{
+    text-decoration: underline;
+}
+.kilpunto{
+    font-size:18px ;
+}
+.kilh3{
+    color: purple;
+}
+#tul li{
+    margin-left: -25px;
+}
+ul.kilul.kilpunto li{
+    margin-left: -25px;
+}
+/* PAGE cCALİSANHEDEF*/
+#calisanbody{
+    background-color: rgb(63, 52, 79);
+}
+div#calisanlogo img#logo2{
+    width: 40%;
+    height: auto;
+}
+  
+div#calisanlogo  img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#calisanlogo {
+    text-align: center;
+}
+div#calisanlogo {
+    background-color: rgb(63, 52, 79);
+    margin:-8px -8px -20px -8px;
+}
+
+.calisanul li a{
+width: 400px;
+float: inline-end;
+height: 0;
+}
+.calisanb{
+    margin-top: 50px;
+    text-align: center;
+    color: aqua;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.cali{
+    list-style-type: disc;
+    width: auto;
+    margin-top: 20px;
+    color: red;
+}
+.calisanul{
+    list-style-type: disc;
+    margin-left: 10px;
+    font-size: 20px;
+    color: red;
+}
+ul.calisanul li a{
+    display: block;
+    text-align: left;
+    width: 440px;
+    height: 0px;
+    margin-top: 20px;
+    line-height: 0px;
+    color: rgb(179, 39, 255);
+    text-decoration: underline;
+}
+.calisanhedefh3{
+    font-size: 24px;
+    color: aqua;
+    text-decoration: underline;
+}
+.calisanp{
+    font-size: 18px;
+    color: red;
+}
+/* PAGE CALİSANHEDEF*/
+
+
+/* PAGE PRATİK CEKİM*/
+div#pratiklogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#pratiklogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#pratiklogo{
+    text-align: center;
+}
+div#pratiklogo{
+    background-color:rgb(10, 7, 75);
+    margin:-8px -8px -20px -8px;
+}
+#pratikbody{
+    background-color: rgb(10, 7, 75);
+}
+.pratikf{
+    float: left;
+    height: 43.9%;
+    width: auto;
+}
+.pratikb{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+.pratikul{
+    list-style-type: disc;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+}
+.pratika{
+    height: 0px;
+    float: left;
+}
+.pratikp{
+    color: white;
+    font-size: 20px;
+}
+ul li a.maina{
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 50px;
+    background-color: rgb(25, 114, 248);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.pratikul li{
+    margin-left: -2%;
+}
+ul.pratikul li {
+    position: inherit;
+}
+h3#dh3{
+    text-align: center;
+    clear: both;
+    color: white;
+    font-size: 24px;
+    text-decoration: underline;
+}
+/* PAGE PRATİK CEKİM*/
+
+/* PAGE UZUN MESAFE*/
+body#uzunmbody{
+    background-color: aqua;
+}
+div#uzunmlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#uzunmlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#uzunmlogo{
+    text-align: center;
+}
+div#uzunmlogo{
+    background-color: black;
+    margin:-8px -8px -20px -8px;
+}
+.uzunmb{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(164, 170, 141);
+}
+.uzunmp{
+    font-size: 18px;
+    color: rgb(61, 3, 91);
+}
+ul.uzunmul{
+    font-size: 18px;
+    color: lightcoral;
+    margin-left: -20px;
+    list-style-position: inside;
+}
+.uzunmf{
+    width: auto;
+    height:40% ;
+    margin:5px 5px 5px -30px
+}
+/* PAGE UZUN MESAFE*/
+
+
+
+/* PAGE TEZGAH*/
+body#tezgahbody{
+    background-color: #ba6a63;
+}
+div#tezgahlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#tezgahlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#tezgahlogo{
+    text-align: center;
+}
+div#tezgahlogo{
+    background-color: #1f3e02;
+    margin:-8px -8px -20px -8px;
+}
+.tezgahb{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(183, 183, 255);
+}
+.tezgahp{
+    color:midnightblue;
+    font-size: 18px;
+}
+#tezgahf{
+    width: auto;
+    height: 50%;
+    margin: 0px 5px 0px -8px;
+}
+#tezgahf1{
+    width: 50%;
+    height: auto;
+    margin: 0px 5px 0px -8px;
+}
+#tezgahf2{
+    width: auto;
+    height: 60%;
+    margin: -90px 5px 0px 0px;
+}
+/* PAGE TEZGAH*/
+/* PAGE METALİK SİLÜET*/
+div#metaliklogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#metaliklogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#metaliklogo{
+    text-align: center;
+}
+div#metaliklogo{
+    background-color: #5720d4;
+    margin:-8px -8px -20px -8px;
+}
+body#metalikbody{
+    background-color: #566589;
+}
+.metalikb{
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(127, 253, 255);
+    text-align: center;
+}
+.metalikf{
+    height: 40%;
+    width: auto;
+    margin: 0px 5px 3px 0px;
+}
+.metalikp{
+    font-size: 20px;
+    color: #bcb12d;
+}
+.metalikf1{
+    height: 47%;
+    width: auto;
+    margin: 0px 0px 0px 5px;
+}
+.metaliktable{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+.metalikh3{
+    text-decoration: underline;
+    color: rgb(44, 35, 18);
+}
+#metalikh32{
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(44, 35, 18);
+}
+
+.metaliktable th{
+    background-color: rgb(2, 195, 2);
+}
+.metaliktable td{
+    background-color: rgb(239, 189, 189);
+}
+/* PAGE METALİK SİLÜET*/
+/* PAGE BATİLİ*/
+div#batililogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#batililogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#batililogo{
+    text-align: center;
+}
+div#batililogo{
+    background-color: #b8dac3;
+    margin:-8px -8px -20px -8px;
+}
+.batilif{
+    height: 35%;
+    width:auto ;
+    margin: 0px 0px 0px 5px;
+}
+.batilib{
+    font-size: 30px;
+    text-decoration: underline;
+}
+#kovboy{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.batilip{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.batilipbottom{
+    margin-bottom: 100px;
+}
+.batiliul{
+    font-size: 20px;
+}
+.batiliul a{
+    font-weight: bold;
+}
+#kovboyatli{
+    font-size: 30px;
+    margin-left: 23%;
+    text-decoration: underline;
+}
+.batilif1{
+    height: 45%;
+    width: auto;
+    margin: 0px 5px 5px -8px;
+}
+#batilihr1{
+    color: black;
+    margin-top: 55px;
+    border: 0.5px solid black;
+    margin-left: -8px;
+}
+#batilihr2{
+    color: black;
+    margin-top: -18px;
+    border: 0.5px solid black;
+}
+.batiliul li{
+    margin-left: -20px;
+}
+#batilibody{
+    background-color: aquamarine;
+}
+/* PAGE BATİLİ*/
+
+/* PAGE AGIZDAN YUKLEME*/
+div#aylogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#aylogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#aylogo{
+    text-align: center;
+}
+div#aylogo{
+    background-color: #e8f542;
+    margin:-8px -8px -20px -8px;
+}
+body#aybody{
+    background-color: #27470d;
+}
+.ayb{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: #e8f542;
+    font-weight: bold;
+}
+#ayf{
+    margin: 0px 5px 5px -8px;
+    width: auto;
+    height: 40%;
+}
+.ayp{
+    color: aquamarine;
+    font-size: 18px;
+}
+#ayf2{
+    margin: 0px 5px 5px -8px;
+    width: auto;
+    height: 51%;
+}
+.ayh3{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: left;
+    color: #e8f542;
+    font-weight: bold;
+}
+/* PAGE AGIZDAN YUKLEME*/
+/* PAGE PARA CEKİMİ*/
+div#paralogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#paralogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#paralogo{
+    text-align: center;
+}
+div#paralogo{
+    background-color: gold;
+    margin:-8px -8px -20px -8px;
+}
+#parabody{
+    background-color: #7b0736;
+}
+.parab{
+    font-size: 30px;
+    color: aqua;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}
+.paraf{
+    height: 40%;
+    width: auto;
+    margin: 5px 5px 0px -8px;
+}
+.paraf1{
+    height: 43.1%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+.parap{
+    font-size: 20px;
+    color: gold;
+}
+.parabh2{
+    font-size: 30px;
+    color: aqua;
+    text-decoration: underline;
+    margin-top: -17px;
+}
+.paraul li{
+    font-size: 20px;
+    color: rgb(83, 132, 255);
+    list-style-position: inside;
+}
+.paraul{
+    margin-top: -20px;
+}
+.paraust{
+    margin-top: -20px;
+}
+.paraul2 li{
+    font-size: 20px;
+    color: rgb(83, 132, 255);
+    list-style-position: inside;
+    margin-left: -2%;
+}
+.paraul2{
+    margin-top: -20px;
+}
+.parabh2t{
+    font-size: 30px;
+    color: rgb(164, 180, 41);
+    text-decoration: underline;
+    margin-top: -0px;
+}
+.paratable{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-top: -20px;
+    background-color: white;
+    clear: both;
+
+}
+.paratable th{
+    background-color: red;
+}
+.paratable2 th{
+    background-color: red;
+}
+.paratable2{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    float: left;
+    margin-top: -20px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+.paracekimifooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    width: 98.4%;
+    padding: 20px;
+    margin: 23% 0px -8px -8px;
+}
+.paracekimifooter a:hover{
+    cursor: pointer;
+}
+.paracekimifooter img:hover{
+    cursor: pointer;
+}
+.paracekimifooter:hover{
+    cursor: default;
+}
+.paracekimifooter p:hover{
+    cursor: default;
+}
+/* PAGE PARA CEKİMİ*/
+/* PAGE PLİKİNG*/
+div#plikinglogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#plikinglogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#plikinglogo{
+    text-align: center;
+}
+div#plikinglogo{
+    background-color: #2a4714;
+    margin:-8px -8px -20px -8px;
+}
+#plikingbody{
+    background-color: #0b3c47;
+}
+.plikingb{
+    font-size: 30px;
+    text-decoration: underline;
+    color: springgreen;
+    text-align: center;
+}
+.plikingp{
+    font-size: 22px;
+    color: red;
+}
+.plikingf{
+    height: 50%;
+    width: auto;
+    margin: 0px 6px 6px -8px;
+}
+.plikingf1{
+    height: 50%;
+    width: auto;
+    margin: 0px 6px 6px -8px;
+}
+/* PAGE PLİKİNG*/
+/*PAGE ATLETİK ATİS*/
+div#atletiklogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#atletiklogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#atletiklogo{
+    text-align: center;
+}
+div#atletiklogo{
+    background-color: #87d4ca;
+    margin:-8px -8px -20px -8px;
+}
+#atletikbody{
+    background-color: #1a6883;
+}
+.atletikb{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    color: #a7aafebc;
+}
+.atletikf{
+    height: 50%;
+    width: auto;
+    margin: 5px 5px 5px -8px;
+}
+.atletikul{
+    list-style-position: inside;
+    font-size: 23px;
+    color: rgb(1, 155, 207);
+    margin-left: -30px;
+}
+.atletikf1{
+    height: 50%;
+    width: auto;
+    margin: 5px 5px 5px -8px;
+}
+.atletikp{
+    font-size: 23px;
+    color: lightblue;
+}
+.atletikbh3{
+    color:orange;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.atletikpust{
+    margin-top:-3px;
+}
+/*PAGE ATLETİK ATİS*/
+/*PAGE OKCULUK*/
+div#okculuklogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#okculuklogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#okculuklogo{
+    text-align: center;
+}
+div#okculuklogo{
+    background-color: #083045;
+    margin:-8px -8px -20px -8px;
+}
+#okculukbody{
+    background-color: #d4d03b;
+}
+.okculukp{
+    color: #484deb;
+    font-size: 20px;
+}
+.okculukb{
+    font-size: 30px;
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.okculukol{
+    font-size: 23px;
+    color: red;
+    text-decoration: underline;
+    list-style-position: inside;
+    font-weight: bold;
+}
+.okculukf{
+    height: 36%;
+    width: auto;
+    margin: -25px 5px 0px -8px;
+}
+.okculukf1{
+    height: 53%;
+    width: auto;
+    margin: 5px 5px 5px -8px;
+}
+.okculukf2{
+    height: 50%;
+    width: auto;
+    margin: 5px 5px 5px -8px;
+}
+.okculukf3{
+    height: 50%;
+    width: auto;
+    margin: 5px 5px 5px -8px;
+}
+.okculukf4{
+    height: 40%;
+    width: auto;
+    margin: 5px 5px 5px -8px;
+}
+.okculukf5{
+    height: 40%;
+    width: auto;
+    margin: 5px 5px 0px -8px;
+}
+.okculukf51{
+    height: 47.2%;
+    width: auto;
+    margin: 0px 5px 5px -8px;
+}
+.okculukf6{
+    height: 56%;
+    width: auto;
+    margin: 5px 5px 0px -8px;
+}
+.okculukold{
+    margin-left: 31%;
+}
+.okculukold1{
+    margin-left: 33%;
+}
+.okculukold2{
+    margin-left: 13%;
+}
+.okculukold3{
+    margin-left: 26%;
+}
+.okculukold4{
+    margin-left: 32%;
+}
+.okculukold5{
+    margin-left: 33%;
+}
+.okculukold6{
+    margin-left: -40px;
+}
+/*PAGE OKCULUK*/
+/* PAGE TATAR YAYİ*/
+div#tataryayilogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#tataryayilogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#tataryayilogo{
+    text-align: center;
+}
+div#tataryayilogo{
+    background-color: #b90d55;
+    margin:-8px -8px -20px -8px;
+}
+body#tataryayibody{
+    background-color:#6c1fb3;
+}
+.tataryayib{
+    font-size: 30px;
+    color: #b90d55;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.tataryayip{
+    color: white;
+    font-size: 20px;
+}
+.tataryayibh2{
+    font-size: 30px;
+    color: #b90d55;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px;
+}
+.tataryayibh3{
+    font-size: 25px;
+    color: #b9820d;
+    text-decoration: underline;
+}
+.tataryayif{
+    height: 45%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+.tataryayif1{
+    margin: 0px -8px 0px 5px;
+    height: 30%;
+    width: auto;
+}
+/* PAGE TATAR YAYİ*/
+/* PAGE DART ATIS*/
+div#dartlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#dartlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#dartlogo{
+    text-align: center;
+}
+div#dartlogo{
+    background-color: #bfa513;
+    margin:-8px -8px -20px -8px;
+}
+#dartbody{
+    background-color: rgb(215, 197, 197);
+}
+.dartb{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: red;
+}
+.dartp{
+    font-size: 20px;
+    color: rgb(33, 10, 10);
+}
+.dartbh3{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.dartul{
+    font-size: 20px;
+    color: purple;
+}
+.dartf{
+    margin: 0px 5px 0px -8px;
+    width: auto;
+    height: 30%;
+}
+.dartf1{
+    margin: 0px 5px 5px -8px;
+    width: auto;
+    height: 30%;
+}
+.dartpbottom{
+    margin-bottom: 120px;
+}
+/* PAGE DART ATIS*/
+/* PAGE OLIMPIYAT DUELLLOSU*/
+div#olimpiyatlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#olimpiyatlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#olimpiyatlogo{
+    text-align: center;
+}
+div#olimpiyatlogo{
+    background-color: #262375;
+    margin:-8px -8px -20px -8px;
+}
+#olimpiyatbody{
+    background-color: #826b74;
+}
+.olimpiyatb{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    text-decoration: underline;
+    text-align: center;
+}
+.olimpiyatp{
+    font-size: 20px;
+    color: #d0dd40;
+}
+.olimpiyatf{
+    margin: 0px 5px 0px -8px;
+    height: 35%;
+    width: auto;
+}
+/* PAGE OLIMPIYAT DUELLLOSU*/
+/* PAGE PAINTBALL*/
+div#pblogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#pblogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#pblogo{
+    text-align: center;
+}
+div#pblogo{
+    background-color: #7f0177;
+    margin:-8px -8px -20px -8px;
+}
+#pbbody{
+    background-color: #a55c2f;
+}
+.pbb{
+    color: gold;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.pbp{
+    color: black;
+    font-size: 17px;
+}
+.pbul{
+    color: black;
+    font-size: 17px;
+    list-style-position: inside;
+    margin-left: -30px;
+}
+.pbbh3{
+    font-size: 25px;
+    text-decoration: underline;
+    color: #2da2ee;
+}
+.pbf{
+    height: 65%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+.pbf1{
+    height: 35%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+.pbf2{
+    height: 35%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+.pbf3{
+    height: 31.6%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+.pbf4{
+    height: 33%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+.pbf5{
+    height: 31.6%;
+    width: auto;
+    margin: 0px 5px 0px -8px;
+}
+/* PAGE PAINTBALL*/
+/* PAGE AIRSOFT*/
+div#airsoftlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#airsoftlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#airsoftlogo{
+    text-align: center;
+}
+div#airsoftlogo{
+    background-color: #f481fb;
+    margin:-8px -8px -20px -8px;
+}
+#airsoftbody{
+    background-color: #fb96b1;
+}
+.airsoftb{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    color: darkblue;
+    text-align: center;
+}
+.airsoftp{
+    color: #080e56;
+    font-size: 18px;
+}
+.airsoftf{
+    margin: 0px 5px 5px -8px;
+    height: 34%;
+    width: auto;
+}
+.airsoftf1{
+    margin: 0px 5px 5px -8px;
+    height: 47%;
+    width: auto;
+}
+.airsoftf2{
+    margin: 0px 5px 5px -8px;
+    height: 45%;
+    width: auto;
+}
+/* PAGE AIRSOFT*/
+/* PAGE LAZER ETIKETI*/
+div#lazerlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#lazerlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#lazerlogo{
+    text-align: center;
+}
+div#lazerlogo{
+    background-color: #1e49fa;
+    margin:-8px -8px -20px -8px;
+}
+#lazerbody{
+    background-color: #3d4e4b;
+}
+.lazerb{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.lazerp{
+    color: #2da2ee;
+    font-size: 18px;
+}
+.lazerul{
+    color: #2da2ee;
+    font-size: 18px;
+    list-style-position: inside;
+}
+.lazerf{
+    margin: 0px 5px 5px -8px;
+    height: 70%;
+    width: auto;
+}
+.lazerf1{
+    margin: 0px 5px 5px -8px;
+    height: 54%;
+    width: auto;
+}
+.lazerf2{
+    margin: 0px -8px 0px 0px;
+    height: 30%;
+    width: auto;
+}
+/* PAGE LAZER ETIKETI*/
+/* PAGE OKCULUK ETIKETI*/
+div#okculukelogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#okculukelogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#okculukelogo{
+    text-align: center;
+}
+div#okculukelogo{
+    background-color: #fd3416;
+    margin:-8px -8px -20px -8px;
+}
+#okculukebody{
+    background-color: #2f51a9;
+}
+.okculukeb{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #fd3416;
+}
+.okculukep{
+    color: white;
+    font-size: 18px;
+
+}
+.okculukef{
+    margin: 0px 5px 5px -8px;
+    height: 30%;
+    width: auto;
+}
+.okculukep a{
+    color: red;
+}
+/* PAGE OKCULUK ETIKETI*/
+/* PAGE ESPOR*/
+div#esporlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#esporlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#esporlogo{
+    text-align: center;
+}
+div#esporlogo{
+    background-color: #644c60;
+    margin:-8px -8px -20px -8px;
+}
+#esporbody{
+    background-color: #0e3442;
+}
+.esporb{
+    font-weight: bold;
+    font-size: 30px;
+    color: #6effe7;
+    text-align: center;
+    text-decoration: underline;
+}
+.esporp{
+    font-size: 18px;
+    color: #16d101;
+}
+.esporbh3{
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+.esporf{
+    margin: 0px 5px 5px -8px;
+    height: 40%;
+    width: auto;
+}
+.esporf1{
+    margin: 0px 5px 5px -8px;
+    height: 45%;
+    width: auto;
+}
+.esporf2{
+    margin: 0px 5px 5px -8px;
+    height: 55%;
+    width: auto;
+}
+/* PAGE ESPOR*/
+/* PAGE FEDERASYON*/
+div#federasyonlogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#federasyonlogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#federasyonlogo{
+    text-align: center;
+}
+div#federasyonlogo{
+    background-color: rgb(0, 0, 0);
+    margin:-8px -8px -20px -8px;
+}
+body#federasyonbody{
+    background-color:#1b0368;
+}
+.federasyonb{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+.federasyonp{
+    font-size: 17px;
+    color: #24d618;
+}
+.federasyonul{
+    font-size: 17px;
+    color: #24d618;
+}
+.federasyonul a {
+    color: rgb(124, 124, 247);
+}
+.federasyonbh3{
+    color: white;
+    text-decoration: underline;
+}
+.ullicolor{
+    color: #c1f65c;
+}
+.taf{
+    margin: 0px -8px 5px 0px;
+    height: 35%;
+    width: auto;
+}
+.issf{
+    margin: 0px -8px 5px 0px;
+    height: 35%;
+    width: auto;
+}
+/* PAGE FEDERASYON*/
+/* PAGE Tarihce*/
+div#tarihcelogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#tarihcelogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#tarihcelogo{
+    text-align: center;
+}
+div#tarihcelogo{
+    background-color: rgb(0, 0, 0);
+    margin:-8px -8px -20px -8px;
+}
+body#tarihcebody{
+    background-color:rgb(40, 34, 34);
+}
+#tarihcet{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.tarihceh2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+#turkiye{
+    background-color: red;
+}
+#usa{
+    background-color: blue;
+}
+#britain{
+    background-color: purple;
+}
+#olimpiyatlar{
+    background-color: green;
+}
+/* PAGE Tarihce*/
+/*FOOTER*/
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    width: 98.4%;
+    padding: 20px;
+    margin: 11% 0px -8px -8px;
+}
+.footer a:hover{
+    cursor: pointer;
+}
+.footer img:hover{
+    cursor: pointer;
+}
+.footer:hover{
+    cursor: default;
+}
+.footer p:hover{
+    cursor: default;
+}
+/*FOOTER*/
+/* PAGE BASVURULAR*/
+div#basvurulogo img#logo2{
+    width: 40%;
+    height: auto;
+} 
+div#basvurulogo img.logo1{
+    width: 25%;
+    height: auto;
+}
+div#basvurulogo{
+    text-align: center;
+}
+div#basvurulogo{
+    background-color: rgb(0, 0, 0);
+    margin:-8px -8px -20px -8px;
+}
+body#basvurubody{
+    background-color:rgb(40, 34, 34);
+}
+.basvurutable{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    width: 40%;
+    border: red 3px solid;
+}
+.basvurutable th {
+    color: red;
+    background-color: #140e64;
+}
+.basvurutable td{
+    background-color: #bf4afc;
+}
+.basvurularb{
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+}
+.basvuruleft{
+    text-align: left;
+}
+#basvurusubmit{
+    background-color:rgb(40, 34, 34) ;
+}
+.basvurufooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    width: 98.4%;
+    padding: 20px;
+    margin: 15% 0px -8px -8px;
+}
+.basvurufooter a:hover{
+    cursor: pointer;
+}
+.basvurufooter img:hover{
+    cursor: pointer;
+}
+.basvurufooter:hover{
+    cursor: default;
+}
+.basvurufooter p:hover{
+    cursor: default;
+}
+/* PAGE BASVURULAR*/
+*{
+    cursor:url(./img/cursor.png) 10 10, default ;
+}
